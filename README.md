@@ -43,25 +43,45 @@ A complete modern DevOps pipeline demonstrating:
 
 devops-gitops-pipeline/
 ├── .github/
+
 │   └── workflows/
+
 │       └── ci.yml              # Opsional jika mau pakai GitHub Actions juga
+
 ├── jenkins/
+
 │   ├── Jenkinsfile             # Jenkins CI/CD pipeline script
+
 ├── terraform/
+
 │   ├── main.tf                 # EC2 / networking
+
 │   └── outputs.tf
+
 ├── cloudformation/
+
 │   └── eks-nodegroup.yaml      # Node group CFN template
+
 ├── k8s/
+
 │   ├── deployment.yaml         # App Deployment
+
 │   ├── service.yaml            # Service
+
 ├── docker/
+
 │   └── Dockerfile              # App Dockerfile
+
 ├── app/
+
 │   └── index.js                # Source code sample
+
 │   └── package.json            # Source code sample
+
 ├── argocd/
+
 │   └── app.yaml                # ArgoCD Application manifest
+
 └── README.md
 
 ## ⚡ Quick Start with Helm
