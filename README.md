@@ -42,6 +42,7 @@ A complete modern DevOps pipeline demonstrating:
 ## 📂 Directory Structure
 
 devops-gitops-pipeline/
+
 ├── .github/
 
 │   └── workflows/
